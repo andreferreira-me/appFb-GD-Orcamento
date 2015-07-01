@@ -1,0 +1,65 @@
+body {
+    background-image: url("../img/background.jpg");
+}
+
+@font-face {
+    font-family: LunaBar;
+    src: url(../fonts/LUNABAR.TTF);
+}
+
+h2 {
+    font-family: LunaBar, sans-serif;
+    color: #3e386b;
+    font-size: 36px;
+}
+
+p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #bfbfbf;
+}
+
+#resultAJAX{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+form {
+    margin-top: 30px;
+}
+
+label {
+    font-size: 18px;
+    color: #c52a7a;
+}
+
+input, textarea {
+    width: 300px;
+}
+
+input[type=text]{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 200px;;
+}
+
+select {
+    width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=button] {
+    margin-top: 20px;
+}
