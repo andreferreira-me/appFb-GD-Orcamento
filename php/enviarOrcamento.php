@@ -5,7 +5,7 @@
 	$ensaios = $_POST['ensaios'];
 	$mensagem = $_POST['mensagem'];
 
-	$to = 'Graciele Dombek <andreferreira.pp@gmail.com>';
+	$to = 'Graciele Dombek <contato@gracieledombek.com.br>';
 	$subject = "Orçamento - Ensaio de $ensaios"; // TODO: Formatar HTML do e-mail enviado
 	$message = "De: $nome\n
 				E-mail: $email\n
